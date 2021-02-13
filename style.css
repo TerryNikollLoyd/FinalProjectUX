@@ -364,9 +364,20 @@ nav {
 	display: block;
 	padding: 0 30px;
 	float: left;
-	font-size:20px;
+	font-size: 14px;
     line-height: 60px;
-    
+    color: white;
+       
+}
+
+#logo a {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size: 22px;
+    line-height: 60px;
+    color: white;
+       
 }
 
 /* Since we'll have the "ul li" "float:left"
