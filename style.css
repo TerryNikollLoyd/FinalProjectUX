@@ -1,0 +1,563 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+    background-image: linear-gradient(#fffffa, #afd6d1);
+    max-width: 100%;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+	font-size:18px;
+	line-height: 32px;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	word-wrap:break-word !important;
+	font-family: 'Helvetica', sans-serif;
+	}
+
+.mainbody { 
+margin-left: 50px;
+margin-right: 50px;
+padding: auto;
+    max-width: 100vw;
+
+}
+
+.primary4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    margin-top: 4px;
+    background-color: transparent;
+    background-image: url(backgroundimg/bg6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-around;
+    
+    }
+
+.mainbody h1 { 
+    margin-top: 20px;
+}
+
+h1 { 
+font-size: 20px;    
+}
+
+
+h3 {
+	font-size: 20px;
+
+	text-align: center;
+	color: #000000;
+}
+
+h3 a {
+	color: #000000;
+}
+
+a {
+	color: #000000;
+}
+
+
+
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+
+
+
+.breadcrumb { 
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.tab {
+    overflow: hidden;
+ justify-content: space-evenly;
+ align-items: center;
+    background-color: transparent;
+    display: flex;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+
+
+  }
+
+  .tab button img {
+   width: 300px;
+   height: 200px;
+   margin-right: 10px; 
+   margin-left: 10px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 20px 20px 20px 20px;
+background-color: white;
+    border-top: none;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 900px;
+    font-size: 16px;
+    text-align: left;
+
+
+  }
+
+
+
+
+.section { 
+    
+    max-width: 100%;
+margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 20px;
+    max-height: 400px;
+    background-color: white;
+   
+}
+
+.hero-section { 
+    max-width: 100%;
+margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 20px;
+height: 300px;
+    background-image: url(/bgimage1.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color:#eae8f3;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+
+   }
+
+.hero-section .text {
+    width: 50%;
+    float: right;
+}
+
+.hero-section2 .text a {
+    float: right;
+    margin-left: 500px;
+}
+
+
+.hero-section2 { 
+    max-width: 100%;
+margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 20px;
+height: 300px;
+    background-image: url(/bgimage2.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color:#fffbe3;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+
+   }
+
+.hero-section2 .text {
+    width: 50%;
+    float: left;
+    
+}
+
+
+.hero-section2 p {
+    float: left;
+}
+
+
+   .hero-section h1{ 
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 20px;
+
+   }
+   .hero-section p { 
+ text-align: right;
+ padding-right: 20px;
+   }
+
+
+
+   .hero-section2 h1{ 
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 20px;
+
+   }
+
+   .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    margin: 20px 100px 40px 100px;
+  }
+  
+  .flip-card img { 
+  
+    width: 250px;
+    height: 250px;
+  
+  }
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.2s;
+    transform-style: preserve-3d;
+  
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+      display: flex;
+    background-color: white;
+    background-size: 200%;
+    color: black;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flip-card-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 20px 20px 20px 20px;
+    font-size: 14px;
+  }
+  
+
+   
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav { 
+	margin:0;
+	padding: 0;
+	background-color: #000000;
+}
+
+#logo {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size:20px;
+    line-height: 60px;
+    
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color: #000000;
+	}
+
+/* Styling the links */
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+
+
+nav ul li ul li:hover { background: #000000; }
+
+/* Background color change on Hover */
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px; 
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+
+
+	
+
+
+
+footer { 
+    background-color: #929faa6c;
+    display: inline-block;
+    width: 100vw;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 13px;
+    z-index: 3;
+  }
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #000000;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+
+
+
+.tab::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+  
+
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
