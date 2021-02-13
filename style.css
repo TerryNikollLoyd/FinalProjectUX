@@ -62,8 +62,17 @@ h3 a {
 	color: #000000;
 }
 
+
 a {
-	color: #000000;
+  color: #000000;
+ 
+}
+
+a:hover {
+  color: #22b993;
+  font-weight: 600;
+
+  
 }
 
 
