@@ -1,9 +1,7 @@
 /* CSS Document */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Space+Grotesk);
-@import url(https://fonts.googleapis.com/css?family=Poppins);
-@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
     background-image: linear-gradient(#fffffa, #afd6d1);
     max-width: 100%;
@@ -17,7 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	word-wrap:break-word !important;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 	}
 
@@ -190,8 +188,8 @@ height: 300px;
 }
 
 .hero-section2 .text a {
-    float: right;
-    margin-left: 500px;
+
+    margin-left: 300px;
 }
 
 
