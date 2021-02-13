@@ -380,6 +380,7 @@ nav ul li {
 	display:inline-block;
 	float: left;
   background-color: #000000;
+  z-index: 3;
 
 	}
 
