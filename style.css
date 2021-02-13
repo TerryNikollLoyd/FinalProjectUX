@@ -342,7 +342,8 @@ height: 300px;
 nav { 
 	margin:0;
 	padding: 0;
-	background-color: #000000;
+  background-color: #000000;
+  z-index: 3;
 }
 
 #logo {
@@ -378,7 +379,8 @@ nav ul li {
 	margin: 0px;
 	display:inline-block;
 	float: left;
-	background-color: #000000;
+  background-color: #000000;
+
 	}
 
 /* Styling the links */
