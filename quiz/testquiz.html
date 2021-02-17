@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	<link href="https://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+	<style>
+
+		.body  {
+
+		font-family: Work Sans;
+
+		}
+		.container {
+			max-width: 800px;
+			margin: 100px auto;
+		}
+		.box {
+			background: #f2f2f2;
+			box-shadow: none;
+        }
+        
+        button { 
+			margin-top: 10px;
+		}
+
+		h1 { text-align: center;
+		font-weight: 600;	
+			}
+        }
+    
+
+	</style>
+	<script src="handy-collapse.js"></script>
+	
+
+</head>
+
+<body>
+    <nav> 
+        <div class="navigation"> <div id="navigation"></div></div>
+</nav>
+
+
+
+
+	<div class="container">
+		<h1>
+		You've been given a problem to solve but it's complicated. What is the first thing you do? </h1>
+		<!--Nested-->
+		<section class="section">
+						<!--Talk to the person who gave you the problem to solve-->
+			<button type="button" class="button is-primary is-fullwidth is-medium" data-nested-control="content01" style="background-color: #000000">
+				Talk to the person who gave you the problem to solve
+            </button>
+			
+			
+		
+			<div data-nested-content="content01">
+				<div class="box">
+					<p>
+						The person tells you more but you still dont get it <br><br>
+					</p>
+					<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="child01">
+						You read up about the problem to try to better understand it 
+					</button>
+					<div data-nested-content="child01">
+						<div class="box" style="background-color:#FFF">
+							<p>
+                        It's still confusing.
+						<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="grandchild01">
+							You decide to do a brainstorm with the problem owner and the users
+						</button>
+						<div data-nested-content="grandchild01" style="background-color: rgb(255, 255, 195)">
+							<p style="margin-bottom:20px"></p>
+							You are a service designer!					
+
+
+						</div>
+						<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="grandchild012">
+							You create a concept to test with users to see if you’re on the right track 
+						</button>
+						<div data-nested-content="grandchild012">
+							<p style="margin-bottom:20px"></p>
+							Users don't like it.	
+							
+							<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="grandchild013">
+								You interview with other users to see if they feel the same way.
+							</button>
+							<div data-nested-content="grandchild013">
+								<p style="margin-bottom:20px"></p>
+								You are a user researcher! 			
+	
+	
+							</div>
+
+
+							<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="grandchild014">
+								You change the apperance hoping it will change their minds.
+							</button>
+							<div data-nested-content="grandchild014">
+								<p style="margin-bottom:20px"></p>
+								You are a visual designer! 			
+	
+	
+							</div>
+
+							<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="grandchild015">
+								You don't care about how it makes them feel, so long as it actually solves the problem. 
+							</button>
+							<div data-nested-content="grandchild015">
+								<p style="margin-bottom:20px"></p>
+								dfasdfasdf
+	
+	
+							</div>
+
+
+
+
+
+						</div>
+						
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+					
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+			
+			
+			<!--Talk to the people who have the problem-->
+			<button type="button" class="button is-primary is-fullwidth is-medium" data-nested-control="content02">
+				Content 02
+			</button>
+
+			<div data-nested-content="content02">
+					<div class="box">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>						Utenim
+							ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure<br>						dolor
+							in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecatcupidatat<br>						non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+						</p>
+						<button type="button" class="button is-info is-fullwidth is-medium" data-nested-control="child02">
+							Child Content 02
+						</button>
+						<div data-nested-content="child02">
+							<div class="box" style="background-color:#FFF">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>								Utenim
+									ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure<br>								dolor
+									in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecatcupidatat<br>								non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+								</p>
+								<button type="button" class="button is-warning is-fullwidth is-medium" data-nested-control="grandChild02">
+										GrandChild Content 02
+									</button>
+									<div data-nested-content="grandChild02">
+										<div class="box" style="background-color:#FFF">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>								Utenim
+												ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure<br>								dolor
+												in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecatcupidatat<br>								non
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </p>
+                                            
+                                            <button type="button" class="button is-warning is-fullwidth is-medium" data-nested-control="grandChild03">
+                                                GrandChild Content 02
+                                            </button>
+                                            <div data-nested-content="grandChild03">
+                                                <div class="box" style="background-color:#FFF">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>								Utenim
+                                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure<br>								dolor
+                                                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecatcupidatat<br>								non
+                                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    </p>
+
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+		</section>
+
+	
+	</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            //Basic Accordion
+            let basic = new HandyCollapse({
+                nameSpace: "basic",
+                closeOthers: true
+            });
+            //Nested
+            let nested = new HandyCollapse({
+                nameSpace: "nested",
+                closeOthers: false
+            });
+            //Callback
+            let callback = new HandyCollapse({
+                nameSpace: "callback",
+                closeOthers: false,
+                onSlideStart: (isOpen,contentID) =>{
+                    console.log(isOpen);
+                    let buttonEl = document.querySelector(`[data-callback-control='${contentID}']`);
+                    if(!buttonEl) return;
+                    if(isOpen){
+                        buttonEl.textContent = "Opned " + contentID;
+                    } else {
+                        buttonEl.textContent = "Closed " + contentID;
+                    }
+                },
+            });
+    
+    
+        },false)
+
+
+        
+        </script>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,44 +1,71 @@
 <div id="logo"><a href="index.html" id="logo">insite</a> 
-    create your career.
+
 </div>
     
-<label for="drop" class="toggle">Menu</label>
+<label for="drop" class="toggle">NAVIGATION MENU</label>
 <input type="checkbox" id="drop" />
     <ul class="menu">
         
         
-        <li><a href="#">ABOUT US</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
         <li>
             <!-- First Tier Drop Down -->
-            <label for="drop-1" class="toggle">DESIGN TYPES</label>
-            <a href="designtypes.html">DESIGN TYPES</a>
+            <label for="drop-1" class="toggle">DESIGN FIELDS </label>
+            <a href="designtypes.html">DESIGN FIELDS <img src="downicon.png" class="dropdown"></a>
             <input type="checkbox" id="drop-1"/>
             <ul>
-                <li><a href="uxdesigner.html">UX & Interaction Design</a></li>
-                <li><a href="#">Graphic & Visual Design</a></li>
-                <li><a href="#">Web Design & Development</a></li>
-                <li><a href="#">Product Design & Strategy</a></li>
-                <li><a href="#">UX Research</a></li>
-                <li><a href="#">Marketing & Brand Design</a></li>
+                <li><a href="uxdesigner.html">UX Design</a></li>
+                <li><a href="#" class="deadlink">Graphic & Visual Design</a></li>
+                <li><a href="#" class="deadlink">Web Design & Development</a></li>
+                <li><a href="productdesigner.html">Product Design & Strategy</a></li>
+                <li><a href="uxresearcher.html">UX Research</a></li>
+                <li><a href="#" class="deadlink">Marketing & Brand Design</a></li>
             </ul> 
         </li>
         <li>
             <!-- First Tier Drop Down -->
-            <label for="drop-1" class="toggle">RESOURCES</label>
-            <a href="#">RESOURCES</a>
-            <input type="checkbox" id="drop-1"/>
+            <label for="drop-2" class="toggle">RESOURCES</label>
+            <a href="#">RESOURCES <img src="downicon.png" class="dropdown"> </a>
+            <input type="checkbox" id="drop-2"/>
             <ul>
-                <li><a href="#">Portfolio Guides</a></li>
+                <li><a href="#" class="deadlink">Portfolio Guides</a></li>
                 <li><a href="interviewing.html">Interviewing 101</a></li>
-                <li><a href="#">Salary Negotiation</a></li>
-                <li><a href="#">Recommended Reads</a></li>
-                <li><a href="#">How to Side Hustle</a></li>
+                <li><a href="#" class="deadlink">Salary Negotiation</a></li>
+                <li><a href="#" class="deadlink">Recommended Reads</a></li>
+                <li><a href="#" class="deadlink">How to Side Hustle</a></li>
                 
 
             </ul> 
 
         </li>
      
-        <li><a href="community.html">COMMUNITY</a></li>
- 
-        <li><a href="#">CONTACT US</a></li>
+        <li>
+            <!-- First Tier Drop Down -->
+            <label for="drop-3" class="toggle">COMMUNITY</label>
+            <a href="#">COMMUNITY</a>
+            <input type="checkbox" id="drop-3"/>
+            <ul>
+                <li><a href="#" class="deadlink">Social Channels</a></li>
+                <li><a href="mentors.html">Meet the Mentors</a></li>
+   
+
+            </ul> 
+
+        </li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+
+
+        
+  <script type="text/javascript">
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('li a');
+    const menuLength = menuItem.length
+    for (let i= 0; i<menuLength; i++){
+      if(menuItem[i].href === currentLocation){
+        menuItem[i].className = "active"
+      }
+    }
+
+    
+
+</script>

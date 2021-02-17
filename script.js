@@ -1,3 +1,5 @@
+
+
 $(function(){
     $("#navigation").load("navigation.html"); 
   });
@@ -9,7 +11,32 @@ $(function(){
   });
 
 
+  $(function(){
+    $("#Cara").load("Cara.html"); 
+  });
 
+  
+  $(function(){
+    $("#David").load("David.html"); 
+  });
+
+  
+  $(function(){
+    $("#Muriel").load("Muriel.html"); 
+  });
+
+
+  $(function(){
+    $("#designtypes").load("designtypesindex.html"); 
+  });
+
+
+  
+
+
+  
+
+  
   function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -26,3 +53,41 @@ $(function(){
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+  function readMore(city) {
+    let dots = document.querySelector(`.card[data-city="${city}"] .dots`);
+    let moreText = document.querySelector(`.card[data-city="${city}"] .more`); 
+    let btnText = document.querySelector(`.card[data-city="${city}"] .myBtn`);
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "Read less"; 
+        moreText.style.display = "inline";
+    }
+}
+
+$('.toggle').click(function(e) {
+  e.preventDefault();
+
+  var $this = $(this);
+
+  if ($this.next().hasClass('show')) {
+      $this.next().removeClass('show');
+      $this.next().slideUp(350);
+  } else {
+      $this.parent().parent().find('li .inner').removeClass('show');
+      $this.parent().parent().find('li .inner').slideUp(350);
+      $this.next().toggleClass('show');
+      $this.next().slideToggle(350);
+  }
+});
+
+
+
+
+
