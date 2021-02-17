@@ -13,7 +13,7 @@ body {
 	font-size:16px;
 	line-height: 32px;
   color: white;
-  background-image: url(/bgtest.png);
+  background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgtest.png");
 	margin: 0;
 	padding: 0;
 	word-wrap:break-word !important;
