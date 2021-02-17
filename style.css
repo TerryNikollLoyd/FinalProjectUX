@@ -541,6 +541,25 @@ padding-bottom: 200px;
     
     }
 
+    .designtype#resources h3 { 
+padding-top: 10px;
+  color: #FFFFFF;
+  background-color: none;
+  background-image: none;
+      }
+
+.designtype#resources .tabcontent {
+height: 80px;
+
+justify-content: center;
+text-align: center;
+
+}
+
+
+  
+
+
   .designtype .tabcontent {
     display: none;
    
