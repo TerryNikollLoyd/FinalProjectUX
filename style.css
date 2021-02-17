@@ -131,7 +131,7 @@ padding: 50px 150px 50px 150px;
   margin-right: 50px;
   text-align: center;
   padding: 200px 30px 0px 30px;
-  background-image: url(/bgcolor2.png);
+  background-image: url("https://github.com/wongx93/finalproject/blob/master/bgcolor2.png?raw=true");
   background-size: 200%;
   background-repeat: no-repeat;
   box-shadow: 8px 8px #000000c4;
@@ -356,7 +356,7 @@ background-color: rgba(150, 150, 150, 0.226);
     
       max-width: 500px;
       width: 80%;
-      background-image: url(/bgtest_1.png);
+      background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgtest_1.png");
   background-size: 200%;
   background-repeat: no-repeat;
   box-shadow: 8px 8px #000000c4;
@@ -406,7 +406,7 @@ div.polaroid2 img.mentorB {
     
       max-width: 500px;
       width: 80%;
-      background-image: url(/bgcolor.png);
+      background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcolor.png");
   background-size: 200%;
   background-repeat: no-repeat;
   box-shadow: 8px 8px #000000c4;
@@ -469,7 +469,7 @@ text-align: left;
   
   /* Style the buttons inside the tab */
   .tab button {
-    background-image: url(/bgcardinactive.png);
+    background-image: url("https://github.com/wongx93/finalproject/blob/master/bgcardinactive.png");
 width: 300px;
 height: 350px;
     border: none;
@@ -500,7 +500,7 @@ border-style: solid;
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-image: url(/bgcard1.png);
+    background-image: url("https://github.com/wongx93/finalproject/blob/master/bgcard1.png?raw=true");
     border-style: solid;
     border-width: 2px;
     font-weight: 600;
@@ -617,7 +617,7 @@ position: relative;
 }
 
 .designtype .tab button#uxdesign {
-  background-image: url(/uxbg.png);
+  background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/uxbg.png");
   background-size: 100%;
 
   background-repeat: no-repeat;
@@ -625,34 +625,34 @@ position: relative;
 
   
 .designtype .tab button#productdesign {
-  background-image: url(/productbg.png);
+  background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/productbg.png");
   background-size: 100%;
 
   background-repeat: no-repeat;
   }
 
   .designtype .tab button#research {
-    background-image: url(/researchbg.png);
+    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/researchbg.png");
     background-size: 100%;
   
     background-repeat: no-repeat;
     }
 
     .designtype .tab button#graphic{
-      background-image: url(/graphicdesignerbg.png);
+      background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/graphicdesignerbg.png");
       background-size: 100%;
     
       background-repeat: no-repeat;
       }
 
       .designtype .tab button#dev{
-        background-image: url(/devbg.png);
+        background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/devbg.png");
         background-size: 100%;
       
         background-repeat: no-repeat;
         }
         .designtype .tab button#mktg{
-          background-image: url(/marketingbg.png);
+          background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/marketingbg.png");
           background-size: 100%;
         
           background-repeat: no-repeat;
@@ -784,7 +784,7 @@ padding: auto;
   width: 250px;
   height: 250px;
   position: relative;
-  background-image: url(/icon2.png);
+  background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/icon2.png");
   background-size: 100%;
   background-repeat: no-repeat;
   float: right;
@@ -1642,7 +1642,7 @@ h4 {
 }
 
 .tab button {
-  background-image: url(/bgcardinactive.png);
+  background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcardinactive.png");
 width: 200px;
 height: 250px;
   border: none;
