@@ -36,15 +36,18 @@ $(function(){
     for (i = 0; i < tabcontentInterview.length; i++) {
       tabcontentInterview[i].style.display = "none";
     }
+    
   
     // Remove the background color of all tablinks/buttons
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].style.backgroundColor = "";
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
   
     // Show the specific tab content
     document.getElementById(cityName).style.display = "block";
+
+  evt.currentTarget.className += " active";
   
     // Add the specific color to the button used to open the tab content
     elmnt.style.backgroundColor = color;
@@ -52,3 +55,9 @@ $(function(){
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+  $('button').on('click', function(){
+    $('button').removeClass('active');
+    $(this).addClass('active');
+});

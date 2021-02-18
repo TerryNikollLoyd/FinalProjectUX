@@ -99,7 +99,8 @@ height: auto;
   }
 
   .interviewcontent button.tablink{ 
-    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcardinactive.png");
+    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcard1.png");
+    background-size: 100%;
 color: black;
 font-size: 14px;
 font-weight: 800;
@@ -107,25 +108,53 @@ width: 200px;
 height: 150px;
 margin-top: 20px;
   }
+
+  .interviewnav { 
+
+    display: flex;
+    justify-content: space-evenly;
+
+  }
   
   .interviewcontent button.tablink:hover{ 
-    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcard1.png");
+    background-color: rgb(210, 203, 212);
+    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcardinactive.png");
 color: black;
 font-size: 14px;
 font-weight: 800;
 width: 200px;
 height: 150px;
-transition: .3s;
-border-width: 2px;
+margin-top: 20px;
+transition: .5s;
+border-width: 3px;
+border-style: solid;
+  }
+  
+  .interviewcontent button.tablink.active{ 
+    background-color: rgb(210, 203, 212);
+    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcardinactive.png");
+color: black;
+font-size: 14px;
+font-weight: 800;
+width: 200px;
+height: 150px;
+margin-top: 20px;
+border-width: 3px;
 border-style: solid;
   }
   
 
+  
   .videoicon { 
 
-    width: 40px;
-   
-  
+
+    height: 40px;
+    
+  }
+
+  .articleicon { 
+
+  height: 40px;
   }
 
 .mainbody2 { 

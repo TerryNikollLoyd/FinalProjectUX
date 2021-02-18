@@ -35,10 +35,10 @@ $(function(){
 
   function openPage(pageName, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
+    var i, tabcontentInterview, tablinks;
+    tabcontentInterview = document.getElementsByClassName("tabcontentInterview");
+    for (i = 0; i < tabcontentInterview.length; i++) {
+      tabcontentInterview[i].style.display = "none";
     }
   
 
