@@ -74,14 +74,58 @@ height: auto;
 
     font-family: 'Work Sans', sans-serif;
     margin: 20px 10px 10px 10px;
-    background-image: linear-gradient(to bottom right, black, rgb(87, 43, 73));
+    background-image: linear-gradient(to bottom right, black, rgb(64, 73, 73));
     color: white;
     padding: 10px 15px 10px 15px;
-   border: none;
+ border-style: solid;
+ border-width: 1px;
+ border-color: White;
    border-radius: 20px 20px 20px 20px;
-
   }
+
+  .tabcontentInterview button:hover { 
+
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px 10px 10px 10px;
+    background-color: white;
+    background-image: none;
+    font-weight: 600;
+    color: black;
+    padding: 10px 15px 10px 15px;
+ border-style: solid;
+ border-width: 1px;
+ border-color: White;
+   border-radius: 20px 20px 20px 20px;
+  }
+
+  .interviewcontent button.tablink{ 
+    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcardinactive.png");
+color: black;
+font-size: 14px;
+font-weight: 800;
+width: 200px;
+height: 150px;
+  }
+  
+  .interviewcontent button.tablink:hover{ 
+    background-image: url("https://raw.githubusercontent.com/wongx93/finalproject/master/bgcard1.png");
+color: black;
+font-size: 14px;
+font-weight: 800;
+width: 200px;
+height: 150px;
+transition: .3s;
+border-width: 2px;
+border-style: solid;
+  }
+  
+
+  .videoicon { 
+
+    width: 40px;
    
+  
+  }
 
 .mainbody2 { 
  background-color:#ffffff;
