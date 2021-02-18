@@ -1,5 +1,8 @@
 /* CSS Document */
 
+html {
+  scroll-behavior: smooth;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Work Sans);
 body {
@@ -22,7 +25,10 @@ body {
 
   }
   
-
+.interviewnav { 
+  text-align: left;
+  padding-left: 20px;
+}
 
 
 
@@ -53,6 +59,29 @@ margin: auto;
   }
 
 
+  .tabcontentInterview {
+    background-color: rgba(95, 110, 110, 0.274);
+    padding: 20px 20px 50px 20px;
+    margin-bottom: 10px;
+height: auto;
+  }
+
+  .tabcontentInterview text { 
+    text-align: left;
+  }
+  
+  .tabcontentInterview button { 
+
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px 10px 10px 10px;
+    background-image: linear-gradient(to bottom right, black, rgb(87, 43, 73));
+    color: white;
+    padding: 10px 15px 10px 15px;
+   border: none;
+   border-radius: 20px 20px 20px 20px;
+
+  }
+   
 
 .mainbody2 { 
  background-color:#ffffff;
@@ -561,6 +590,20 @@ height: 50px;
 
 justify-content: center;
 text-align: left;
+}
+
+
+
+.tablink { 
+  display: inline-block;
+  height: 100px;
+  margin: 5px 5px 5px 5px;
+  background-color: black;
+  color: white;
+width: 25%;
+border: none;
+font-family: 'Work Sans', sans-serif;
+font-size: 18px;
 }
 
 
@@ -1689,6 +1732,9 @@ height: 250px;
 border-style: solid;
 
 }
+
+
+
 
 
 

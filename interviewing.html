@@ -41,139 +41,48 @@
 We asked you what your favorite interviewing resources were. Here are your favorites.
 <p>
 Have a link you'd like to share? <a href="contactus.html">Contact us here!</a></p>
-<!---- Profile Content --> 
-<div id="Default" class="tabcontent">
-    <p style="margin-top:50px"></p>
+<p style="margin-bottom:30px">
 
-<p style="margin-top:30px"></p>
+<p style="margin-bottom:30px"></p>
 
-      </div>
+ <!---- this is where we put interview stuff-->
+<div id="InterviewA" class="tabcontentInterview">
+  <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="534" height="300" type="text/html" src="https://www.youtube.com/embed/ZZ1xffF7P78?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+<text>
+  <p>Christine Chun, aka "Chunbuns" landed her UX job with no prior experience after completing a UX bootcamp. We love her for her honest and candid feedback, and her
+  willingness and transparency in sharing how she succeeded her in her journey on her YouTube channel.</text>
 
-<div id="askamanager" class="tabcontent">
-    <p style="margin-top:10px"></p>
-Hiring managers give in-depth answers to commonly asked questions and concerns surrounding general interview & hiring processes within companies. 
-  </p>
-  <p><a href="https://www.askamanager.org/category/interviewing" target="_blank">Visit AskAManager.org</a></p>
-      </div>
+  <a href="mentors.html">
 
+    <button class="fa fa-arrow-right">visit @chunbuns on YouTube > </button></a>
 
-<div id="ProductDesign" class="tabcontent">
-
-  <p>some info here</p> 
-    </div>
-  
-    <div id="UXResearch" class="tabcontent">
-
-      <p>some info here</p> 
-    </div>
-    
-    <div id="VisualDesign" class="tabcontent">
-
-      <p>some info here</p> 
-    </div>
-  
-    <div id="Brand" class="tabcontent">
-    
-      <p>some info here</p> 
-    </div>
-  
-  
-  
-  </center>
-
-
-
-<center>
-  <!---- Profile Navigation -->
-  
- 
-  <div class="tab">
-
-
-    <a href="https://www.askamanager.org/category/interviewing">
-      <button class="tablinks" onmouseover="openCity(event, 'askamanager')" id="askamanager">
-   Ask A Manager
-    <p>
-  <span>
-      
-    Hiring managers give in-depth answers to commonly asked questions and concerns surrounding general interview & hiring processes within companies. 
-    learn more</span>
-      </button></a>
-      
-
-
-
-      <a href="productdesigner.html">   
-      <button class="tablinks" onmouseover="openCity(event, 'ProductDesign')" id="productdesign">
-
-Product Design & Strategy 
-<p>
-  <span>learn more</span>
-  </button>
-
-  <a href="uxresearcher.html">  <button class="tablinks" onmouseover="openCity(event, 'UXResearch')" id="research">
-
-UX Research
-<p>
-  <span>learn more</span>
-      </button></a>
-
-      <button class="tablinks" onmouseover="openCity(event, 'VisualDesign')" id="graphic">
-
-        Graphic & Visual Design  
-        <p>(coming soon)</p>
-          </button>
-
-          <button class="tablinks" onmousesover="openCity(event, 'WebDesign')" id="dev">
-
-      Web Design & Development 
-      <p>(coming soon)</p>
-              </button>
-              <button class="tablinks" onclick="openCity(event, 'Brand')" id="mktg">
-
-  Marketing & Brand Design
-  <p>(coming soon)</p>
-                  </button>
-                
-            
-
-                </div>
-
-  <!---- how to set the default part-->
-    <div class="tab" id="HIDDENDEFAULT">
-
-      <button class="tablinks defaulthidethis" onmouseover="openCity(event, 'Default')" id="defaultOpen">
-
-       Default Open
-                        </button>
-                      
-    </div>
-
-  
-  
-  
-  </div>
-  <center>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</p>
 </div>
 
- 
+<div id="Paris" class="tabcontentInterview">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p>
+</div>
 
+<div id="Tokyo" class="tabcontentInterview">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontentInterview">
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+ <!----toggle nav for interview-->
+
+<button class="tablink" onclick="openCity('InterviewA', this,)" id="defaultOpen">@Chunbuns</button>
+<button class="tablink" onclick="openCity('Paris', this,)">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this,)">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this,)">Oslo</button>
+
+ 
+</div>
 
 
 
@@ -185,7 +94,7 @@ UX Research
  
 
 <div class="footer"> <div id="footer"></div></div>
-<script type="text/javascript" src="designtype.js"></script>
+<script type="text/javascript" src="interview.js"></script>
 
 </body>
 
