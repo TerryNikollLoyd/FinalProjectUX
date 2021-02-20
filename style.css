@@ -644,11 +644,16 @@ padding-bottom: 200px;
     
     }
 
+    .designtype#resources{
+      height: 100vh;
+    }
+
     .designtype#resources h3 { 
 padding-top: 10px;
   color: #FFFFFF;
   background-color: none;
   background-image: none;
+  
       }
 
       .designtype#resources a { 
